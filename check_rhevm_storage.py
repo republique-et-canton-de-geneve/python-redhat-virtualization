@@ -11,8 +11,8 @@ parser.add_argument('-r',required=True, help="rhevm api url")
 parser.add_argument('-u',required=True, help="rhevm username")
 parser.add_argument('-p',required=True, help="rhevm password")
 parser.add_argument('-k',required=True, help="rhevm CA")
-parser.add_argument('-w',required=True, help="warning in %", type=int)
-parser.add_argument('-c',required=True, help="critical in %", type=int)
+parser.add_argument('-w',required=True, help="warning in %%", type=int)
+parser.add_argument('-c',required=True, help="critical in %%", type=int)
 args = parser.parse_args()
 
 try:
